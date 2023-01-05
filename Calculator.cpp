@@ -7,7 +7,7 @@ using namespace std;
 int main() {
         string calc;
         string mult = "Multiplication";
-        string div = "Division";
+        string divi = "Division";
         string add = "Addition";
         string sub = "Subtraction";
         string hlp = "Help";
@@ -27,7 +27,7 @@ int main() {
                 ans = num1 * num2;
                 cout << "\nAnswer: " << ans;
                 cout << "\n";
-        } else if (calc == div) {
+        } else if (calc == divi) {
                 cout << "\nDivision calculator\n\nFirst number: ";
                 cin >> num1;
                 cout << "\nSecond number: ";
