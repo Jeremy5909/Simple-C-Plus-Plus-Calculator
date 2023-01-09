@@ -14,9 +14,8 @@ int main() {
     double num1;
     double num2;
     double ans;
-    bool rydershotbutcheeks = true;
     string yn;
-while  (rydershotbutcheeks == true) {
+while  (1 == 1) {
     while (screen == 1) {
         cout << "\nSimple C++ Calculator 1.0.3\n\nTypes of calculaton:\n\n[1]\tHelp\n[2]\tMultiplication\n[3]\tDivision\n[4]\tAddition\n[5]\tSubtraction\n\nSelect your calculation: ";
         cin >> calc;
