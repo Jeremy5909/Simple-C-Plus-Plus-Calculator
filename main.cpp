@@ -1,9 +1,6 @@
 #include <iostream>
-
 #include <string>
-
 using namespace std;
-
 int main() {
   int screen = 1;
   int calc;
@@ -89,6 +86,13 @@ int main() {
       }
     } else {
       cout << "\n" << calc << " is not an option.\n";
+      cout << "\n\nTry again? [y/n] : ";
+      cin >> yn;
+      if (yn == "y") {
+        screen = 1;
+      } else if (yn == "n") {
+        screen = 0;
+      }
     }
     while (screen == 0) {
       return 0;
