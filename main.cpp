@@ -59,9 +59,13 @@ int main() {
             cin >> num1;
             cout << "\nSecond number: ";
             cin >> num2;
-            ans = num1 / num2;
-            cout << "\nAnswer: " << ans;
-            cout << "\n\n\nDo another calculation? [y/n] : ";
+            if (num2 == 0) {
+                cout << "\nDivide by 0 error.\n\nDo another calculation? [y/n] : ";
+            }
+            else {
+                ans = num1 / num2;
+                cout << "\nAnswer: " << ans << "\n\n\nDo another calculation? [y/n] : ";
+            }
             cin >> yn;
             if (yn == "y") {
                 screen = 1;
